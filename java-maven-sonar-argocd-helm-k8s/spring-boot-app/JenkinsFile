@@ -6,7 +6,7 @@ pipeline {
     }
     tools {
     // Remove the specific Git installation and use the default one
-    Default "git"
+    Default 'git'
   }
   stages {
     stage('Checkout') {
